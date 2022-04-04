@@ -23,7 +23,7 @@ export default {
         }
     },
     methods: {
-        login() { any
+        login() { /*any*/
             this.$auth.login(this.email, this.password);
         }
     }
